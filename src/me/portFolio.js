@@ -1,6 +1,7 @@
 import React from 'react'
 import logicians from '../images/logicians.png'
 import ghanahealth from '../images/ghana-health.png'
+import phoenix from '../images/phoenix-tech.jpg'
 import {Grid, Container, TransitionablePortal, Header, Segment, Icon, Divider, List, Rating, Item} from 'semantic-ui-react'
 
 class PortFolio extends React.Component {
@@ -201,10 +202,10 @@ class PortFolio extends React.Component {
                        </Item>
 
                        <Item>
-                         <Item.Image size='small' src='https://react.semantic-ui.com/images/wireframe/image.png' />
+                         <Item.Image size='small' src={phoenix} />
 
                          <Item.Content>
-                           <Item.Header as='a' style={{color:'white'}}>Phoenix Software Solutions</Item.Header>
+                           <Item.Header as='a' style={{color:'white'}}>Phoenix Tech. Solutions</Item.Header>
                              <Item.Meta>
                                 <span style={{color:'#FFB800'}}>Software Developer,  June 2018 - Present</span>
                               </Item.Meta>
